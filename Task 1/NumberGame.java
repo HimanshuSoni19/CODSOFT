@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-class Function{
+class Game{
     int rounds = 0;
     int score = 0;
     public void game(){
@@ -54,7 +54,7 @@ class Function{
 public class NumberGame{
     
     public static void main(String args[]){
-        Function game = new Function();
+        Game game = new Game();
         game.game();
     }
 }
